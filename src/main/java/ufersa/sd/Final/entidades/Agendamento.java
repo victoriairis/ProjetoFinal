@@ -3,7 +3,8 @@ package ufersa.sd.Final.entidades;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import ufersa.sd.Final.ServerRMI.AgendamentoInterface;
+import ufersa.sd.Final.interfaces.AgendamentoInterface;
+import ufersa.sd.Final.interfaces.Funcionario;
 
 public class Agendamento implements AgendamentoInterface{
 

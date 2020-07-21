@@ -1,5 +1,7 @@
 package ufersa.sd.Final.entidades;
 
+import ufersa.sd.Final.interfaces.Funcionario;
+
 public class Barbeiro extends Pessoa implements Funcionario {
 
 	String cargo = "Barbeiro";
@@ -22,6 +24,24 @@ public class Barbeiro extends Pessoa implements Funcionario {
 
 	@Override
 	public void setCargo(String cargo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void cadastrarFuncionario() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateFuncionario() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deletarFuncionario() {
 		// TODO Auto-generated method stub
 		
 	}

@@ -3,6 +3,8 @@ package ufersa.sd.Final.entidades;
 import java.util.ArrayList;
 import java.util.Map;
 
+import ufersa.sd.Final.interfaces.Funcionario;
+
 public class Salao {
 
 	public Salao() {
