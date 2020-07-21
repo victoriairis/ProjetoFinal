@@ -3,7 +3,9 @@ package ufersa.sd.Final.entidades;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Agendamento {
+import ufersa.sd.Final.ServerRMI.AgendamentoInterface;
+
+public class Agendamento implements AgendamentoInterface{
 
 	public Agendamento() {
 		// TODO Auto-generated constructor stub
@@ -51,6 +53,21 @@ public class Agendamento {
 	}
 	public void setData(LocalDate data) {
 		this.data = data;
+	}
+	@Override
+	public void criarAgendamento() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void deletarAgendamento() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void modificarAgendamento() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 
